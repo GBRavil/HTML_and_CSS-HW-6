@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.img_head {
+    width: 137px;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.menu_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: normal
+
+}
+
+.menu_item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+.intro {
+    display: flex;
+    gap: 15px;
+    margin-top: 164px;
+}
+
+.intro_left {
+    width: 589px;
+}
+
+.intro_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: normal;
+    width: 522px;
+    margin-bottom: 17px;
+
+
+}
+
+.intro_text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: normal;
+    width: 466px;
+    margin-bottom: 37px;
+}
+
+.intro_buttons_wrapper {
+    display: flex;
+    gap: 108px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.intro_button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: normal;
+
+  
+}
+
+.intro_button_link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: normal;
+    
+}
+
+.intro_img {
+    width: 544px;
+    height: 375px;
+}
+
+.img_logos {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 97px;
+    justify-content: space-between;
+}
+
+.icon-content {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 60px;
+
+}
+
+.position-icon {
+    padding-left: 29px; 
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-right: 31px;
+}
+
+.title-icons {
+    padding-top: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: normal;  
+}
+
+.text-icons {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 17px;
+    padding-bottom: 25px;
+}
+
+.link-icons {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.icon2{
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
